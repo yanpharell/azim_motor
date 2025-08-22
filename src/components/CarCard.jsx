@@ -24,8 +24,8 @@ export default function CarCard({ car, onReserveClick }) {
             </div>
             <div className="flex items-start justify-between gap-2 wrap pt-2">
               <span className="rounded-lg bg-black px-4 py-1.5 text-sm font-semibold text-white whitespace-normal break-words">
-                Catégorie : {car.category} | Couleur extérieure {car.ExtérieurColor} |
-                 Couleur intérieure {car.interiorColor} | Transmission : {car.transmission} |
+                Catégorie : {car.category} | Couleur extérieure : {car.ExtérieurColor} |
+                 Couleur intérieure : {car.interiorColor} | Transmission : {car.transmission} |
                  Carburant : {car.fuel} | Boite de vitesse : {car.gearbox} |
                 Moteur :  {car.engine}
               </span>
