@@ -189,7 +189,7 @@ const Hero = () => (
     <Container>
       <div className="grid grid-cols-1 items-center gap-12 py-16 md:grid-cols-2 md:min-h-[72vh]">
         <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-          <span className="mb-4 inline-block rounded-full border border-neutral-200 px-3 py-1 text-xs font-medium text-neutral-700">Location de voitures au meilleur prix</span>
+          <span className="mb-4 inline-block rounded-full border border-neutral-200 px-3 py-1 text-xs font-medium text-neutral-700">Location et vente de voitures au meilleur prix</span>
           <h1 className="text-2xl font-extrabold tracking-tight text-neutral-900 sm:text-3xl">
             SIMPLIFIEZ VOUS LA VIE ! <span className="whitespace-nowrap">COMMANDEZ VOTRE VOITURE <br /> DIRECTEMENT DES USA </span>
           </h1>
