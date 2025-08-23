@@ -218,15 +218,15 @@ const Hero = () => (
           </ul> */}
         </motion.div>
         <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1 }}>
-          <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl shadow-2xl">
-            <img
-              src="https://images.unsplash.com/photo-1542362567-b07e54358753?q=80&w=1974&auto=format&fit=crop"
-              alt="Voiture moderne sur route"
-              className="h-full w-full object-cover"
-              loading="lazy"
-            />
-            <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent" />
-          </div>
+<div className="relative w-full overflow-hidden rounded-3xl shadow-2xl">
+  <img
+    src={`${import.meta.env.BASE_URL}img/nissan-1.jpg`}
+    alt="Voiture moderne sur route"
+    className="w-full h-auto object-contain"
+    loading="lazy"
+  />
+</div>
+
         </motion.div>
       </div>
     </Container>

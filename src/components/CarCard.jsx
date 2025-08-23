@@ -31,6 +31,12 @@ export default function CarCard({ car, onReserveClick }) {
               </span>
             </div>
 
+            <div className="flex items-start justify-between gap-2 wrap pt-2">
+               <span className="rounded-lg bg-black px-4 py-1 text-sm font-semibold text-white whitespace-normal break-words">
+                Statut : {car.statut}
+              </span>
+            </div>
+
             <div className="mt-4 space-y-2">
               {Object.entries(car.features).map(([category, items], i) => (
                 <div key={i} className="border-b border-gray-100 pb-3 last:border-0 last:pb-0">

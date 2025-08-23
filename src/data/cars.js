@@ -3,11 +3,11 @@ export const cars = [
     id:   1,
     name: "NISSAN ROGUE 2015",
     category: "SUV compact",
-    price: 20000,
+    price: "30 000",
+    statut:"Avec ou sans chauffeur",
     images: [
-      "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?q=80&w=2069&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1549923746-c502d488b3ea?q=80&w=2070&auto=format&fit=crop",
-      
+      `${import.meta.env.BASE_URL}img/nissan.jpeg`,
+      `${import.meta.env.BASE_URL}img/nissan.jpeg`,
     ],
     ExtérieurColor: "Blanc Lune",
     interiorColor: "Noire",
@@ -26,11 +26,11 @@ export const cars = [
     id: 2,
     name: "KIA Sportage 2014",
     category: "SUV compact",
-    price: 18000,
+    price: "30 000",
+     statut:"Avec ou sans chauffeur",
     images: [
-      "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?q=80&w=2069&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1549923746-c502d488b3ea?q=80&w=2070&auto=format&fit=crop",
-     
+     `${import.meta.env.BASE_URL}img/kia.jpeg`,
+      `${import.meta.env.BASE_URL}img/kia.jpeg`,
     ],
     ExtérieurColor: "Blanc Lune",
     interiorColor: "Noire",
@@ -49,11 +49,11 @@ export const cars = [
     id: 3,
     name: "Hyundai SantaFe 2014",
     category: "SUV intermédiaire / familial",
-    price: 18000,
+    price: "30 000",
+    statut:"Avec ou sans chauffeur",
     images: [
-      "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?q=80&w=2069&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1549923746-c502d488b3ea?q=80&w=2070&auto=format&fit=crop",
-      
+      `${import.meta.env.BASE_URL}img/hundai.jpeg`,
+      `${import.meta.env.BASE_URL}img/hundai.jpeg`,
     ],
     ExtérieurColor: "Bleu marine",
     interiorColor: "Cuire noire",

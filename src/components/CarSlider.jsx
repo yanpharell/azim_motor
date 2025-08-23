@@ -69,6 +69,8 @@ export const CarSlider = ({ images }) => {
           src={images[imageIndex]}
           alt={`Voiture ${imageIndex + 1}`}
           className="w-full h-full object-cover object-center select-none"
+          // className="w-full h-full object-contain"
+          loading="lazy"
           draggable={false}
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}

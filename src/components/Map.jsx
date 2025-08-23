@@ -1,8 +1,7 @@
 import React from 'react';
 
 const Map = () => {
-  const mapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63430.69632545004!2d1.188017!3d6.130419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1023e5e2c0b0b0a9%3A0x7f8f8f8f8f8f8f8f!2sLom%C3%A9%2C%20Togo!5e0!3m2!1sen!2stg!4v1620000000000!5m2!1sen!2stg";
-
+  const mapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4819661413894!2d1.2046246999999999!3d6.199968500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x102159d4457dc3dd%3A0xeef1acd3f950c45c!2sAzim%20Motors%20lom%C3%A9!5e0!3m2!1sfr!2stg!4v1755940707012!5m2!1sfr!2stg";
   return (
     <div className="mt-6 rounded-xl overflow-hidden h-60 md:h-60 w-full">
       <iframe
