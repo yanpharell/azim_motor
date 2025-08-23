@@ -44,16 +44,16 @@ const LegalNoticeModal = ({ isOpen, onClose }) => {
               
               <section>
                 <h3 className="text-lg font-semibold text-neutral-900 mb-2">Directeur de la publication</h3>
-                <p>M. [Nom du directeur]</p>
+                <p>M. AZIM</p>
               </section>
               
               <section>
                 <h3 className="text-lg font-semibold text-neutral-900 mb-2">Hébergement</h3>
                 <p>
-                  [Nom de l'hébergeur]<br />
-                  [Adresse de l'hébergeur]<br />
+                  [Github]<br />
+                  {/* [Adresse de l'hébergeur]<br />
                   [Téléphone de l'hébergeur]<br />
-                  [Site web de l'hébergeur]
+                  [Site web de l'hébergeur] */}
                 </p>
               </section>
               
